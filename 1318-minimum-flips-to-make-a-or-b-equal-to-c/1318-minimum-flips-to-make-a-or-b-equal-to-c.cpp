@@ -11,8 +11,8 @@ public:
                 }
 
             }else {
-                if ((a &1 ) == 1 ) flip++;
-                if ((b&1) ==1  ) flip++;
+                if ((a & 1) == 1 ) flip++;
+                if ((b & 1) == 1 ) flip++;
 
             }
             a >>= 1;
@@ -21,6 +21,6 @@ public:
 
         }   
         return flip;
-             
+
     }
 };
