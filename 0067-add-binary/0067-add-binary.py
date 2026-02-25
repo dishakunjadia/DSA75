@@ -1,5 +1,5 @@
-class Solution:
-    def addBinary(self, a: str, b: str) -> str:
+class Solution(object):
+    def addBinary(self, a, b):
         i = len(a) - 1
         j = len(b) - 1
         carry = 0
@@ -20,4 +20,10 @@ class Solution:
             carry = total // 2
 
         return ''.join(reversed(result))
+        
+        """
+        :type a: str
+        :type b: str
+        :rtype: str
+        """
         
