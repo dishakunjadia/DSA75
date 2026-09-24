@@ -7,7 +7,7 @@ public:
         return result;
 
         for (int i =0; i < n + 1; i++) {
-            result[i] = result[i>>1] + (i & 1);
+            result[i] = result[i >> 1] + (i & 1);
         }
         return result;
     }
